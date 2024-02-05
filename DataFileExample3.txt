@@ -1,0 +1,25 @@
+Apibendrindami bandymų rezultatus, galime padaryti tokią išvadą. 
+Kai šviesa krinta statmenai
+(piešti grafiką)
+paviršiui, jo apšvieta yra tiesiogiai proporcinga
+šaltinio šviesos stipriui ir atvirkščiai proporcinga
+atstumo nuo šaltinio iki apšviečiamo paviršiaus
+kvadratui:
+E = I/(R^2)
+Be to, apšvieta priklauso nuo šviesos spindulių kritimo kampo. 
+Kai jie krinta statmenai, paviršiaus
+apšvieta esti didžiausia. 
+((I))300((I))
+(nepiešti grafiko)
+Pradžios raktažodis:
+(piešti grafiką)
+Pabaigos raktažodis:
+(nepiešti grafiko)
+Tekste nesančios formulės:
+E = I/(R^2)
+Nariai išreiškimui:
+E
+Formulės fizikinis matas:
+m
+Priklausomo nario fizikinis matas:
+lx

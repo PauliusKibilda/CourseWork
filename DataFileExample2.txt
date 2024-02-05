@@ -1,0 +1,15 @@
+Šį uždavinį išspręsime samprotaudami taip: 
+((piešti))1 kg medžiagos temperatūrai pakelti 1 °C rei- 
+kia c šilumos, 
+m kg medžiagos temperatūrai pakelti 1 °C rei- 
+kia m kartų daugiau šilumos, t. y. c · m, m kg medžiagos temperatūrai 
+pakelti nuo t1 iki t2 
+reikia (t2 – t1) kartų daugiau šilumos, t. y. c·m(t2 – t1). 
+Tai galima užrašyti formule ((F)) Q = cm(t2 - t1) ((F))
+((t1))1((t1))((t2))10((t2))((m))5((m))((nepiešti))
+Nariai išreiškimui:
+c
+Formulės fizikinis matas:
+J/(kg·°C)
+Priklausomo nario fizikinis matas:
+kJ
