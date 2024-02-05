@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import os
 import subprocess
 
@@ -31,20 +28,12 @@ try:
 except ImportError:
     install('numpy')
 
-
-# In[2]:
-
-
 import re
 import matplotlib.pyplot as plt
 import sympy as sp
 from sympy import symbols, Eq, solve, sympify, latex
 from pyeda.inter import *
 import numpy as np
-
-
-# In[81]:
-
 
 #Funtion for adding missing * in between variables in formula
 #Prameters: formula string
@@ -154,10 +143,6 @@ def string_to_latex(s):
     
     return s
 
-
-# In[82]:
-
-
 #Function taht draws graph of given formula
 #Prameters: formula and variable list
 def draw_graph(formula_str, variable_dict, variable_value=None, formula_value=None):
@@ -207,10 +192,6 @@ def draw_graph(formula_str, variable_dict, variable_value=None, formula_value=No
     else:
         print("Klaida gaunant Y ašies reikšmės")
 
-
-# In[83]:
-
-
 #Function that finds used formula based on variable that should be on the left of the equation
 #Prameters: variable string and list of string that contains formulas
 #Returns list of string
@@ -255,10 +236,6 @@ def read_through_text(text_fragments,formulas,formula_keyword,express_variable, 
                 draw_graph(used_formula, formulas_dict, variable_values[index], formula_values[index])
             else:
                 draw_graph(used_formula, formulas_dict, None, None)
-
-
-# In[86]:
-
 
 #Function that read throug file and extracts needed information
 #Parameters: File path
@@ -338,10 +315,3 @@ text, formulas, express_variable, keyword, end_keyword, formula_keyword, variabl
 
 all_text_fragments = extract_text(text, keyword, end_keyword)
 read_through_text(all_text_fragments,formulas,formula_keyword,express_variable, variable_values, formula_values)
-
-
-# In[ ]:
-
-
-
-
